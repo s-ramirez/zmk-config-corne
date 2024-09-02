@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 &led_strip { chain-length = <27>; };
-&mt { tapping-term-ms = 600; };
+&mt { tapping-term-ms = <800>; };
 / {
     keymap {
         compatible = "zmk,keymap";
