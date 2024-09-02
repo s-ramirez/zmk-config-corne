@@ -25,7 +25,7 @@
 &kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J        &kp L                &kp U              &kp Y            &kp SEMI         &kp BSPC
 &kp LCTRL  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G        &kp M        &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K        &kp H                &kp COMMA          &kp DOT          &kp FSLH         &kp RA(ESC)
-                                           &kp LGUI          &mo 3               &kp SPACE    &lt 2 ENTER  &mo 1                &kp ESC
+                                           &kp LGUI          &mo 3               &kp SPACE    &lt 2 ENTER  &lt 1 BACKSPACE      &kp ESC
             >;
         };
 
