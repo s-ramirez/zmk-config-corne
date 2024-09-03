@@ -9,7 +9,9 @@
 #include <dt-bindings/zmk/keys.h>
 
 &led_strip { chain-length = <27>; };
+
 &mt { tapping-term-ms = <800>; };
+
 / {
     keymap {
         compatible = "zmk,keymap";
@@ -25,7 +27,7 @@
             bindings = <
 &kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J        &kp L                &kp U              &kp Y            &kp SEMI         &kp BSPC
 &kp LCTRL  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_SHIFT S  &mt LEFT_CONTROL T  &kp G        &kp M        &mt RIGHT_CONTROL N  &mt RIGHT_SHIFT E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
-&kp LSHFT  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K        &kp H                &kp COMMA          &kp DOT          &kp FSLH         &kp RA(ESC)
+&kp LSHFT  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K        &kp H                &kp COMMA          &kp DOT          &kp FSLH         &kp RIGHT_ALT
                                            &kp LGUI          &mo 3               &kp SPACE    &lt 2 ENTER  &lt 1 BACKSPACE      &kp ESC
             >;
         };
@@ -53,10 +55,10 @@
         Fun {
             display-name = "FUN";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans          &trans          &trans  &trans     &trans  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans          &trans          &trans  &trans     &trans  &trans
-                                        &trans        &trans        &trans          &trans          &trans          &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1          &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans          &trans          &trans  &trans     &trans
+&trans      &trans        &kp LG(LS(NUMBER_4))  &trans        &trans        &trans          &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP  &kp RIGHT  &trans
+&trans      &trans        &trans                &trans        &trans        &trans          &trans  &trans          &trans          &trans  &trans     &trans
+                                                &trans        &trans        &trans          &trans  &trans          &trans
             >;
         };
     };
