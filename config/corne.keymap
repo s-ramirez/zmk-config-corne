@@ -26,7 +26,7 @@
             display-name = "BASE";
             bindings = <
 &kp TAB    &kp Q           &kp W           &kp F             &kp P               &kp B        &kp J        &kp L                &kp U              &kp Y            &kp SEMI         &kp BSPC
-&kp LCTRL  &mt LEFT_GUI A  &mt LEFT_ALT R  &mt LEFT_CONTROL S  &mt LEFT_SHIFT T  &kp G        &kp M        &mt RIGHT_SHIFT N  &mt RIGHT_CONTROL E  &mt RIGHT_ALT I  &mt RIGHT_GUI O  &kp SQT
+&kp LCTRL  &kp A           &kp R           &kp S             &kp T               &kp G        &kp M        &kp N                &kp E              &kp I            &kp O            &kp SQT
 &kp LSHFT  &kp Z           &kp X           &kp C             &kp D               &kp V        &kp K        &kp H                &kp COMMA          &kp DOT          &kp FSLH         &kp RIGHT_ALT
                                            &kp LGUI          &mo 3               &kp SPACE    &lt 2 ENTER  &lt 1 BACKSPACE      &kp ESC
             >;
