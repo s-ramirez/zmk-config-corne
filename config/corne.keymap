@@ -10,12 +10,7 @@
 
 &led_strip { chain-length = <27>; };
 
-flavor = "
-
-tap-unless-interrupted {
-    ";};
-
-/
+&mt { flavor = "tap-unless-interrupted"; };
 
     keymap {
         compatible = "zmk,keymap";
