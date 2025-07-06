@@ -42,7 +42,8 @@
 &trans     &trans  &trans  &trans     &trans  &kp BSLH     &trans  &trans     &trans     &trans  &trans  &trans
                            &kp DOT    &trans  &kp MINUS    &trans  &trans     &trans
             >;
-            label = "NUM"
+
+            label = "NUM";
         };
 
         Sym {
