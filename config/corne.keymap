@@ -14,7 +14,8 @@
     flavor = "tap-unless-interrupted";
 };
 
-/   keymap {
+/ {
+    keymap {
         compatible = "zmk,keymap";
 
         Base {
